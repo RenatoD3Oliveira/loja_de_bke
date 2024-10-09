@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controller\connection.cs" />
+    <Compile Include="model\ProdutoDAO.cs" />
+    <Compile Include="model\Produto.cs" />
     <Compile Include="view\bike1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,10 +81,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="bikes.cs">
+    <Compile Include="view\bikes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bikes.Designer.cs">
+    <Compile Include="view\bikes.Designer.cs">
       <DependentUpon>bikes.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="view\bike1.resx">
@@ -100,7 +103,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="bikes.resx">
+    <EmbeddedResource Include="view\bikes.resx">
       <DependentUpon>bikes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
