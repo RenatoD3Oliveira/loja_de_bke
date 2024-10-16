@@ -12,13 +12,15 @@ namespace loja.model
         private SqlConnection con;
         private string DataBase = "TKLOJINHA";
         private string Server = "sqlexpress";
-        private string Usarname = "aluno";
+        private string Username = "aluno";
         private string Password = "aluno";
 
         public connection()
         {
-            string strinConnection = @"Data Source = " + Server + "; initial Catalog = " + DataBase
-                + "; User Id = " + Username + "; Password = " + Password
+            string strinConnection = @"Data Source = " + Server 
+                + "; initial Catalog = " + DataBase
+                + "; User Id = " + Username
+                + "; Password = " + Password
                 + "; Encrypt = false";
 
             con = new SqlConnection(strinConnection);

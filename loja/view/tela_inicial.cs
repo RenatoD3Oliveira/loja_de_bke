@@ -20,10 +20,20 @@ namespace loja
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            bikes form1 = new bikes();
-            this.Visible = false;
-            form1.ShowDialog();
-            this.Visible = false;
+            //bikes form1 = new bikes();
+            //this.Visible = false;
+            //form1.ShowDialog();
+            //this.Visible = false;
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
