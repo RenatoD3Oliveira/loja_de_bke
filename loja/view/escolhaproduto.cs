@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace loja.view
 {
-    public partial class bike2 : Form
+    public partial class escolhaproduto : Form
     {
-        public bike2()
+        public escolhaproduto()
         {
             InitializeComponent();
         }
